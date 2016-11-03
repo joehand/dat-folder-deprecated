@@ -1,0 +1,26 @@
+{
+  "name": "dat-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/dat-fs.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-fs/issues"
+  },
+  "homepage": "https://github.com/joehand/dat-fs#readme",
+  "dependencies": {
+    "anymatch": "^1.3.0",
+    "folder-walker": "^3.0.0",
+    "hyperdrive-import-files": "^2.4.2",
+    "level": "^1.5.0",
+    "stream-each": "^1.1.2"
+  }
+}
