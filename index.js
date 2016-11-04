@@ -1,5 +1,5 @@
+var countImport = require('hyperdrive-count-import')
 var db = require('./lib/db')
-var countImport = require('./lib/count-import')
 
 module.exports = function (dir) {
   return {

@@ -24,7 +24,7 @@ datFs.db(function (err, db, key, updateDbKey) {
       console.log('imported', file.path)
     })
 
-    importer.on('files counted', function (stats) {
+    importer.on('count finished', function (stats) {
       console.log('folder stats', stats)
     })
   }
